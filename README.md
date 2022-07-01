@@ -15,3 +15,5 @@
 
 ## Learning Path
  ### Glosary
+ ### Bibliography
+ + [Image](https://images.pexels.com/photos/793012/pexels-photo-793012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)

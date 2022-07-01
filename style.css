@@ -1,0 +1,20 @@
+/*Responsive design rules*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Body rules*/
+body {
+  position: fixed;
+  background-color: #FFF;
+  background-image: url(images/pexels-plants-comp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/*Title and description rules*/
