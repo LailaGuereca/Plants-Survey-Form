@@ -11,17 +11,35 @@
   <h1 id="title">House Plants</h1>
   <p id="description">Thank you for taking the time to help us to add better content.</p>
   <form id="survey-form">
-    <label id="name-label">What's your name?</label>
+    <!--Personal data-->
+    <label id="name-label" for="name">What's your name?</label>
     <br>
     <input id="name" type="text" required placeholder="Enter your name">
     <br>
-    <label id="email-label">Your e-mail</label>
+    <label id="email-label" for="email">Your e-mail</label>
     <br>
     <input id="email" type="email" required placeholder="example@plant.com">
     <br>
-    <label id="number-label">Your age (optional)</label>
+    <label id="number-label" for="number">Your age (optional)</label>
     <br>
     <input id="number" type="number" min="12" max="70" placeholder="Age">
+    <br>
+    <label for="dropdown">Which option do you prefer?</label>
+    <br>
+    <select id="dropdown">
+      <option value="green-leaf">Green leaf plants</option>
+      <option value="flowers">Flowering plants</option>
+      <option value="orchids">Orchids</option>
+      <option value="cactus-crass-succulents">Cactus, crass and succulents</option>
+    </select>
+    <fieldset>
+      <legend>Would you buy any of the above options?</legend>
+      <input type="radio" name="action" checked id="definitely" value="definitely"><label for="definitely">Definitely</label>
+      <br>
+      <input type="radio" name="action" id="maybe" value="maybe"><label for="maybe">Maybe</label>
+      <br>
+      <input type="radio" name="action" id="not" value="not"><label for="not">Not</label>
+    </fieldset>
   </form>
 </body>
 </html>
