@@ -11,7 +11,7 @@
  Based on the next image, here comes to me some ideas:  
  ![Home interior plants](images\pexels-plants-comp.jpg)
  + Blurred div which contain the survey fom
- + Handwritting fonts
+ + Handwritting [fonts](https://fonts.google.com/specimen/Berkshire+Swash?category=Handwriting&preview.text=House%20plants&preview.text_type=custom#standard-styles)
 
 ## Learning Path
  ### Glosary

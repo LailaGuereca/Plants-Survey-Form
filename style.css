@@ -9,7 +9,6 @@
 
 /*Body rules*/
 body {
-  position: fixed;
   background-color: #FFF;
   background-image: url(images/pexels-plants-comp.jpg);
   background-size: cover;
@@ -22,6 +21,12 @@ body {
   margin: 50px auto;
   max-width: 600px;
   text-align: center;
+}
+
+#title {
+  display: block;
+  font-size: 2em;
+  font-family: "Berkshire Swash", cursive;
 }
 
 /*Form rules*/
