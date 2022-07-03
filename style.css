@@ -8,12 +8,18 @@
 }
 
 /*Body rules*/
-body {
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
   background-color: #FFF;
   background-image: url(images/pexels-plants-comp.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 /*Title and description rules*/
@@ -70,4 +76,26 @@ label, fieldset, input, button, textarea {
 #dropdown {
   font-family: "Crimson Text", serif;
   font-size: 1.125em; 
+}
+
+fieldset {
+  border: none;
+}
+
+.radio-buttons {
+  height: 2.375em;
+  padding: 0.25rem;
+  padding-left: 0;
+  font-size: 1.15em;
+}
+
+textarea {
+  min-height: 200px;
+  padding: 0.625rem;
+  resize: vertical;
+  color: #000;
+}
+
+#submit {
+  cursor: pointer;
 }
