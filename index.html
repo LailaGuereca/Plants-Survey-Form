@@ -10,6 +10,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+  <!--Crimson Text Regular 400-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="header">
@@ -20,15 +24,15 @@
     <!--Personal data-->
     <label id="name-label" for="name">What's your name?</label>
     <br>
-    <input id="name" type="text" required placeholder="Enter your name">
+    <input id="name" class="form-control" type="text" required placeholder="Enter your name">
     <br>
     <label id="email-label" for="email">Your e-mail</label>
     <br>
-    <input id="email" type="email" required placeholder="example@plant.com">
+    <input id="email" class="form-control" type="email" required placeholder="example@plant.com">
     <br>
     <label id="number-label" for="number">Your age (optional)</label>
     <br>
-    <input id="number" type="number" min="12" max="70" placeholder="Age">
+    <input id="number" class="form-control" type="number" min="12" max="70" placeholder="Age">
     <br>
     <label for="dropdown">Which option do you prefer?</label>
     <br>
@@ -56,9 +60,9 @@
       <br>
       <label for="comments">Any comments or suggestions?</label>
       <br>
-      <textarea id="comments" class="textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+      <textarea id="comments" class="textarea form-control" name="comment" placeholder="Enter your comment here..."></textarea>
       <br>
-      <button type="submit" id="submit">Submit</button>
+      <button type="submit" id="submit" class="form-control">Submit</button>
   </form>
 </body>
 </html>
